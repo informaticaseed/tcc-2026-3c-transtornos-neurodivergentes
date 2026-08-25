@@ -7,11 +7,11 @@
 
 | Nome completo | GitHub | Turma |
 |--------------|--------|-------|
-| (Carolinne Alves da Mota) | @carolinnealvesdamota-cell | 3C |
+| (Caroline Alves da Mota)
 | (Luiz Eduardo de Toledo Aleixo) | @luiztaleixo-lab | 3C |
 | (nome 3) | @username | 3A |
 
-**Tema:** (escreva aqui em 1 frase)
+**Tema:** (Plataforma Web para ajudar pessoas neurodivergentes)
 **Tecnologia:** Python + Flask + SQLite
 
 ---
