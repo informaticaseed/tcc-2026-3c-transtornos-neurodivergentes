@@ -7,7 +7,7 @@
 
 | Nome completo | GitHub | Turma |
 |--------------|--------|-------|
-| (Caroline Alves da Mota)
+| (Caroline Alves da Mota) | @carolinnealvesdamota-cell | 3C |
 | (Luiz Eduardo de Toledo Aleixo) | @luiztaleixo-lab | 3C |
 | (nome 3) | @username | 3A |
 
