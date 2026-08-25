@@ -34,15 +34,76 @@
 ## 📁 Estrutura do projeto
 
 ```
-├── README.md           ← este arquivo
-├── BACKLOG.md          ← resumo fixo do MVP e links
-├── docs/
-│   ├── arquitetura.md  ← diagrama de arquitetura
-│   └── decisoes/       ← registros de decisão técnica (ADR)
-├── diagramas/          ← imagens e diagramas
-├── evidencias/         ← screenshots das demos
-├── src/                ← código do sistema
-└── tests/              ← testes automáticos
+neuroapp-js/
+│
+├── server.js
+├── package.json
+├── README.md
+├── .gitignore
+├── .env.example
+│
+├── src/
+│   ├── app.js
+│   ├── config.js
+│   ├── db.js
+│   │
+│   ├── data/
+│   │   ├── educationTopics.js
+│   │   └── forumCategoriesSeed.js
+│   │
+│   ├── middleware/
+│   │   └── auth.js
+│   │
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── chat.js
+│   │   ├── forum.js
+│   │   ├── grafo.js
+│   │   ├── main.js
+│   │   └── perfil.js
+│   │
+│   ├── sockets/
+│   │   └── chatSocket.js
+│   │
+│   ├── utils/
+│   │   └── avatar.js
+│   │
+│   └── views/
+│       ├── layout.ejs
+│       ├── index.ejs
+│       ├── educacao.ejs
+│       ├── neuroguia.ejs
+│       ├── grafo.ejs
+│       ├── 404.ejs
+│       │
+│       ├── auth/
+│       │   ├── login.ejs
+│       │   └── register.ejs
+│       │
+│       ├── forum/
+│       │   ├── index.ejs
+│       │   ├── novo_post.ejs
+│       │   ├── categoria.ejs
+│       │   └── post.ejs
+│       │
+│       ├── chat/
+│       │   └── index.ejs
+│       │
+│       └── perfil/
+│           ├── editar.ejs
+│           ├── buscar.ejs
+│           └── ver.ejs
+│
+└── public/
+    ├── css/
+    │   └── style.css
+    │
+    ├── js/
+    │   ├── neuroguia.js
+    │   ├── grafo.js
+    │   └── chat.js
+    │
+    └── img/
 ```
 
 ---
