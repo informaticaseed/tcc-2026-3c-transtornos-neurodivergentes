@@ -18,7 +18,7 @@
 
 ## 🎯 O que o sistema faz
 
-(Descreva em 2-3 frases o problema que o sistema resolve e para quem)
+(Plataforma Digital para para auxiliar pessoas com Transtornos Neurodivergentes )
 
 ---
 
@@ -33,77 +33,35 @@
 
 ## 📁 Estrutura do projeto
 
-```
-neuroapp-js/
-│
-├── server.js
-├── package.json
-├── README.md
-├── .gitignore
-├── .env.example
-│
-├── src/
-│   ├── app.js
-│   ├── config.js
-│   ├── db.js
-│   │
-│   ├── data/
-│   │   ├── educationTopics.js
-│   │   └── forumCategoriesSeed.js
-│   │
-│   ├── middleware/
-│   │   └── auth.js
-│   │
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── chat.js
-│   │   ├── forum.js
-│   │   ├── grafo.js
-│   │   ├── main.js
-│   │   └── perfil.js
-│   │
-│   ├── sockets/
-│   │   └── chatSocket.js
-│   │
-│   ├── utils/
-│   │   └── avatar.js
-│   │
-│   └── views/
-│       ├── layout.ejs
-│       ├── index.ejs
-│       ├── educacao.ejs
-│       ├── neuroguia.ejs
-│       ├── grafo.ejs
-│       ├── 404.ejs
-│       │
-│       ├── auth/
-│       │   ├── login.ejs
-│       │   └── register.ejs
-│       │
-│       ├── forum/
-│       │   ├── index.ejs
-│       │   ├── novo_post.ejs
-│       │   ├── categoria.ejs
-│       │   └── post.ejs
-│       │
-│       ├── chat/
-│       │   └── index.ejs
-│       │
-│       └── perfil/
-│           ├── editar.ejs
-│           ├── buscar.ejs
-│           └── ver.ejs
-│
-└── public/
-    ├── css/
-    │   └── style.css
-    │
-    ├── js/
-    │   ├── neuroguia.js
-    │   ├── grafo.js
-    │   └── chat.js
-    │
-    └── img/
+```neuroguia/
+├── app.py                      # Servidor Flask, rotas, segurança e eventos SocketIO
+├── models.py                   # Modelos de banco de dados (User, ForumRoom, ForumMessage, PrivateMessage)
+├── chatbot.py                  # Base de conhecimento e lógica do Chatbot (13 tópicos)
+├── requirements.txt            # Dependências Python
+├── static/
+│   ├── css/
+│   │   └── style.css           # Folha de estilos editorial (sem emojis)
+│   ├── js/
+│   │   ├── chat.js             # Comunicação SocketIO do fórum e chat privado
+│   │   ├── chatbot.js          # Controle interativo com delay de digitação
+│   │   └── main.js             # Filtro dinâmico do catálogo clínico
+│   └── data/
+│       └── conditions.json     # Base clínica das 10 condições
+├── templates/
+│   ├── base.html               # Layout base com aviso educativo fixo
+│   ├── index.html              # Catálogo clínico
+│   ├── forum.html              # Fórum de discussões
+│   ├── private_chat.html       # Janela de chat privado 1:1
+│   ├── search.html             # Busca de usuários
+│   ├── profile.html            # Edição de perfil
+│   ├── user_profile.html       # Visualização pública de perfis
+│   ├── auth.html               # Login e cadastro
+│   └── chatbot.html            # Interface do assistente interativo
+└── graphify-out/               # Grafo de conhecimento gerado pelo Graphify
+    ├── graph.json              # Grafo em formato JSON
+    ├── graph.html              # Visualizador interativo do grafo
+    ├── GRAPH_REPORT.md         # Relatório analítico de arquitetura
+    └── obsidian/               # Notas integradas para Obsidian
 ```
 
 ---
