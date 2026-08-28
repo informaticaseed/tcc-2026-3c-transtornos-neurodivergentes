@@ -7,13 +7,13 @@
 
 ## Quinzena 1 — 27/07 a 08/08
 
-### Compromissos assumidos em 27/07
+### Compromissos assumidos em 28/08
 
 | Integrante | O que se comprometeu a fazer |
 |-----------|------------------------------|
-| (nome 1) | |
-| (nome 2) | |
-| (nome 3) | |
+| Luiz Eduardo Tolendo | Diagram de caso de uso e DFD|
+| Carolinne Alves | Logo, hospedagagem, ver melhorias pequenas|
+
 
 ### Verificação em 08/08
 
