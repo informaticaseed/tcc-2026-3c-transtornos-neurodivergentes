@@ -30,13 +30,12 @@
 
 ## Quinzena 2 — 10/08 a 22/08
 
-### Compromissos assumidos em 10/08
+### Compromissos assumidos em 15/09
 
 | Integrante | O que se comprometeu a fazer |
 |-----------|------------------------------|
-| (nome 1) | |
-| (nome 2) | |
-| (nome 3) | |
+| Luiz Eduardo Tolendo | Fazer o slide de apresentação do TCC|
+| Carolinne Alves | Finalizar o relatório, fazer o diagrama entidade relacionamento (DER banco de dados)|
 
 ### Verificação em 22/08
 
